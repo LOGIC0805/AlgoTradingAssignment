@@ -35,8 +35,7 @@ VCV_Daily_Week: 2.4634
 Panic_Small_Order_Pct_1min: 1.2495  
 Market_Unique_1min: 2.3484  
 Following_Coef_1min: 1.3842  
-****
-**Average Sharp Ratio: 2.0389**  
+#### Average Sharp Ratio: 2.0389  
 #### Correlation:  
 The correlations of the selected factors are all below 0.5.  
 **Correlation Sheet**  
