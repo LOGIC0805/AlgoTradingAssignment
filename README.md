@@ -1,14 +1,14 @@
 # AlgoTradingAssignment  
 ## Files Description  
-**reference**  
-Research report of factors  
-**result**  
+#### reference  
+Research reports of factors  
+#### result  
 Factor backtest results and correlation result pictures  
-**factors_calc.py**  
+#### factors_calc.py  
 Implementation of factors  
-**factors_utils.py**  
+#### factors_utils.py  
 Tool codes required for factor implementation and correlation calculation  
-**factors_corr.ipynb**  
+#### factors_corr.ipynb  
 Calculation of factor correlations  
 
 
@@ -19,7 +19,7 @@ The data source is the database I used during my internship in quantitative priv
 ## Backtest Description  
 **start_date: 20190101**  
 **end_date: 20240401**  
-**Adjust Position Days: 5**  
+**Adjust Position Days: 5 (Week-Frequency)**  
 **Group Split Number: 10**  
 **Method: Long Short (Long Group 9&10, Short Group 1&2)**  
 
@@ -35,6 +35,7 @@ VCV_Daily_Week: 2.4634
 Panic_Small_Order_Pct_1min: 1.2495  
 Market_Unique_1min: 2.3484  
 Following_Coef_1min: 1.3842  
+****
 **Average Sharp Ratio: 2.0389**  
 #### Correlation:  
 The correlations of the selected factors are all below 0.5.  
